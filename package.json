@@ -40,5 +40,7 @@
     "eslint-plugin-vue": "^5.2.2",
     "vue": "^2.6.7",
     "vue-template-compiler": "^2.6.7"
-  }
+  },
+  "precommit" : [ "grunt precommit" ]
+
 }
