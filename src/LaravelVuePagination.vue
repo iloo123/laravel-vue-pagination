@@ -29,7 +29,6 @@
             <li class="page-item pagination-page-nav" v-for="(page, key) in computed.pageRange" :key="key" :class="{ 'active': page == computed.currentPage }">
                 <a class="page-link" href="#" v-on="pageButtonEvents(page)">
                     {{ page }}
-                    <span class="sr-only" v-if="page == computed.currentPage">(current)</span>
                 </a>
             </li>
 
